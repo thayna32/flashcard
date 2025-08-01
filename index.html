@@ -1,45 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="assets/style.css">
-    <title>flashcard</title>
+    <title>Extrator de Palavras-Chave</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   <main>
-            <section id="container">
-                <article class="cartao">
-                    <div class="cartao__conteudo">
-                                <h3>Artes</h3>
-                                <div class="cartao__conteudo__pergunta">
-                                        Qual é o nome do movimento artístico que se caracterizou pela busca pela representação fiel da realidade?
-                                </div>
-                                <div class="cartao__conteudo__resposta">
-                                        Realismo
-                                </div>
-                        </div>
-                </article>
-                <article class="cartao">
-        <div class="cartao__conteudo">
-                <h3>Artes</h3>
-                <div class="cartao__conteudo__pergunta">
-                         Quais foram as principais características da arte renascentista?
-                </div>
-                <div class="cartao__conteudo__resposta">
-                        A arte renascentista valorizava o humanismo, a busca pela proporção e a representação da natureza.
-                </div>
-        </div>
-</article>
 
-                
-        </section>
-0
-    </main>
-    <footer>
-        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
-    </footer> 
-    <script src="app.js"></script>
-    <script src="perguntas.js"></script>
+<body>
+    <div class="container">
+        <h1>Extrator de palavras-chave</h1>
+        <textarea id="entrada-de-texto" placeholder="Digite ou cole seu texto aqui..."></textarea>
+        <button id="botao-palavrachave">Extrair</button>
+        <div id="resultado-palavrachave"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
